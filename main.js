@@ -1,19 +1,25 @@
-const text = document.querySelector('.sec-text');
+// const text = document.querySelector('.sec-text');
 
-  const textLoad=()=>{
-    setTimeout(() => {
-        text.textContent = 'FreeLancer';
-    },100)
+//   const textLoad=()=>{
+//     var newText='FreeLancer';
+// var h='';
+//     for (let index = 0; index < newText.length; index++) {
+      
+//     setInterval(()=>{
+//       console.log('hamid')
+//     },1000)
+//      text.textContent = h;
+    
+//     }
+    
 
-    setTimeout(() => {
-        text.textContent = 'WebDeveloper';
-    }, 4000)
-    setTimeout(() => {
-        text.textContent = 'MernDeveloper';
-    }, 8000)
-  }
-    textLoad();
-  setInterval(textLoad, 12000);
+    
+
+   
+
+//   }
+//     textLoad();
+
 
 const brand=document.querySelector('#brand');
 brand.addEventListener('click',()=>{
