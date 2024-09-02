@@ -1,24 +1,11 @@
-// const text = document.querySelector('.sec-text');
 
-//   const textLoad=()=>{
-//     var newText='FreeLancer';
-// var h='';
-//     for (let index = 0; index < newText.length; index++) {
-      
-//     setInterval(()=>{
-//       console.log('hamid')
-//     },1000)
-//      text.textContent = h;
-    
-//     }
-    
-
-    
-
-   
-
-//   }
-//     textLoad();
+var typed= new Typed(".sec-text",{
+    strings:['Web Developer','Front End Developer'],
+    typeSpeed:150,
+    backSpeed:150,
+    backDelay:500,
+    loop:true
+});
 
 
 const brand=document.querySelector('#brand');
