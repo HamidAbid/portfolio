@@ -19,8 +19,8 @@
   <!--________________________navbar___________________________________ -->
   <section class="nav-bg fixed-top w-100  " id="navbar">
     <nav class="navbar navbar-expand-lg ">
-      <div class="container-xl">
-        <a class="navbar-brand fw-light oswald s-head " id="brand">Hamid</a>
+      <div class="container">
+        <a class="navbar-brand fw-light oswald s-head " id="brand">HᎯᗰᎥᗪ</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class=""><i class="fa-solid fa-bars"></i></span>
@@ -54,9 +54,9 @@
   <!--________________________main___________________________________ -->
   <section class=" container-fluid w-100" id="main" >
     <span class="text-align"></span>
-    <div class="container-xl pt-4  " id="Home">
+    <div class="container pt-4  " id="Home">
       <div class="row  gap-5 ">
-        <div class="col-xl-6 p-2 ">
+        <div class="col-xl-6 p-3 ">
           <h2 class="p-1 d1 fs-3">Hello it's me </h2>
           <h1 class="p-1 l1 head oswald">Hamid Abid</h1>
           <h3 class="p-1 u2 fs-3 first-text ">And I'm a <span class="sec-text text-change fw-bold"></span>
@@ -68,12 +68,13 @@
           <div class="btns ">
            
            
-              <a href='https://github.com/HamidAbid' target="_blank" class=" btn rounded-btn m-2 r2">
-                <i class="fa-brands fa-github fa-2xl link"></i></a>
-           
-      
-              <a href='https://www.linkedin.com/in/hamid-abid-696b63323/' target="blank" class="btn rounded-btn  r3">
-                <i class="fa-brands fa-linkedin-in fa-xl link"></i></a>
+              
+            <a href='https://github.com/HamidAbid' target="_blank" class=" btn rounded-btn m-2 r2">
+              <i class="fa-brands fa-github fa-xl "></i></a>
+         
+    
+            <a href='https://www.linkedin.com/in/hamid-abid-696b63323/' target="blank" class="btn rounded-btn  r3">
+              <i class="fa-brands fa-linkedin-in fa-lg "></i></a>
          
           </div>
           <div class="more-btn pt-3  roboto u5"> <a href="https://drive.google.com/file/d/14t8D6SdjbS-wmk1mM1x9y5V84F_UJ8PY" class="btn text-light rounded-pill fs-6 p-2 px-3" target="blank">Download Resume <i class="fa-solid  fa-download"></i></a>
@@ -92,7 +93,7 @@
   <!--________________________About___________________________________ -->
   <section class=" container-fluid  " id="about">
 
-    <div class="container-xl py-3  ">
+    <div class="container py-3  ">
       <div class="row gap-5 ">
         <div class="col-xl-5 text-center">
           <img class="img-fluid rounded-circle mt-4 l1 p-1  img-border" src="./profile.jpg" alt="" width="400px">
@@ -117,7 +118,7 @@
   <!--_______________________Services___________________________________ -->
   <!-- <section class="container-fluid roboto" id="services">
     <h1 class=" text-center sedan-regular head ">Services</h1>
-    <div class="container-xl p-3 ">
+    <div class="container p-3 ">
       <div class=" row  justify-content-center">
         <div class="col-xl-4 u1 p-3">
           <div class="card service p-2">
@@ -167,7 +168,7 @@
   <section class=" container-fluid roboto" id="myskill">
 
     <h1 class="text-center head sedan-regular py-3"> My <span class="text-change">Skill</span></h1>
-    <div class="container-xl ">
+    <div class="container ">
       <div class="row mt-2">
         <div class="col-md-6 p-3 ">
           <h1 class="text-center pb-4 sedan-regular s-head ">Technical Skills</h1>
@@ -220,7 +221,7 @@
   <!--______________________My projects___________________________________ -->
   <section id="myproject" class="container-fluid py-5 roboto">
     <h1 class="head text-center sedan-regular pt-5 mt-2">My <span class="text-change">Projects</span></h1>
-    <div class="container-xl ">
+    <div class="container ">
       <div class="row mt-5 gap-3">
         <div class="col-md-4 p-2 ">
           <div class="img rounded">
@@ -262,7 +263,7 @@
   <!--________________________contact___________________________________ -->
   <section class=" container-fluid roboto" id="contact">
     <h1 class="head sedan-regular text-center  pt-5">Contact</h1>
-    <div class="container-xl ">
+    <div class="container ">
       <div class="row gap-5 justify-content-evenly">
         <div class="col-xl-6 p-3">
           <h1 class="head sedan-regular l1">Let's <span class="text-change">Work Togather</span></h1>
@@ -283,31 +284,33 @@
            
            
             <a href='https://github.com/HamidAbid' target="_blank" class=" btn rounded-btn m-2 r2">
-              <i class="fa-brands fa-github fa-2xl link"></i></a>
+              <i class="fa-brands fa-github fa-xl "></i></a>
          
     
             <a href='https://www.linkedin.com/in/hamid-abid-696b63323/' target="blank" class="btn rounded-btn  r3">
-              <i class="fa-brands fa-linkedin-in fa-xl link"></i></a>
+              <i class="fa-brands fa-linkedin-in fa-lg "></i></a>
        
         </div>
         </div>
         <div class="col-xl-5 p-3">
 
-          <form class="pt-4 ">
+          <form class="pt-4 " id="form" action="submit">
             <div class="mb-3 u2">
 
-              <input type="text" placeholder="Your Name" class=" fs-6 p-2 text ">
+              <input type="text" placeholder="Your Name" class=" fs-6 p-2 text " id="name">
+              <div class="danger" id="nameError"></div>
             </div>
             <div class="mb-3 u3">
 
-              <input type="email" placeholder="your Email" class=" fs-6 p-2 text">
-
+              <input  placeholder="your Email" class=" fs-6 p-2 text" id="email">
+              <div class="danger" id="emailError"></div>
             </div>
             <div class="mb-3 u4">
-              <textarea name="" class="fs-6 p-2 messege " placeholder="Messege" rows="6"></textarea>
+              <textarea type="text" class="fs-6 p-2 messege " placeholder="Messege" rows="6" id="message"></textarea>
+              <div class="danger" id="messageError"></div>
             </div>
             <div class="mb-3 u6">
-              <button type="submit  " class="btn logo submit fs-5 fw-light roboto ">Submit</button>
+              <button type="submit " class="btn logo submit fs-5 fw-light roboto ">Submit</button>
             </div>
           </form>
 
@@ -320,6 +323,8 @@
     <h6 class="text-center ">Develop by Hamid Abid © 2024</h6>
   </footer>
   <script src="main.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
     crossorigin="anonymous"></script>
