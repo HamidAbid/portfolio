@@ -1,6 +1,6 @@
 
 var typed= new Typed(".sec-text",{
-    strings:['Web Developer','Front End Developer'],
+    strings:['Web Developer','MERN Stack Developer'],
     typeSpeed:150,
     backSpeed:150,
     backDelay:500,
